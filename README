@@ -1,0 +1,43 @@
+----------------------
+-- The empty module --
+----------------------
+
+This is an empty module that can be used to bootstrap Open Wonderland module development.
+
+----------------------------------------------
+Classpaths and expected structure for Netbeans
+----------------------------------------------
+
+This module will need little modifications if it is downloaded (or cloned) in a structure 
+that resembles the following 'my-own-wonderland-modules' directory.  Please note that for 
+module development, the sources of Open Wonderland have to be available locally.
+
+If you have your Wonderland sources in your user directory, the expected structure should
+look like:
+
+~/wonderland
+	| [loads of stuff here]
+
+~/wonderland-modules
+	|
+	--> stable
+	|	| [modules here]
+	|
+	--> unstable
+		| [modules here]
+
+~/my-own-wonderland-modules
+	|
+	--> unstable
+		|
+		--> empty_module
+
+If you drop the empty_module in that directory (or similar but with your own names), then 
+all the classpaths should be ready to go. If not, follow the instructions in the tutorial
+to change your settings for Netbeans.
+
+Link to the tutorial: http://faithhold.dyndns.org:8080/JSPWiki/Wiki.jsp?page=Developing%20a%20New%20Cell
+
+
+
+Jos (Jan 2011)
