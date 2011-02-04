@@ -38,6 +38,15 @@ to change your settings for Netbeans.
 
 Link to the tutorial: http://faithhold.dyndns.org:8080/JSPWiki/Wiki.jsp?page=Developing%20a%20New%20Cell
 
+-----------------------------------------
+Cleaning up git references after cloning
+-----------------------------------------
+If you have cloned this project, you will want to clean up the remote references to the original git project.
+To do so just delete the .git folder. You can also delete the .gitigore file if you are not going to be using git,
+and the file at src/classes/.only_here_for_git_delete_me which is only there cause git does not keep track of empty
+folders.
+
+After cleaning these files up, you can initialise your own git repo if you want to do so (git init).
 
 
 Jos (Jan 2011)
