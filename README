@@ -39,6 +39,20 @@ to change your settings for Netbeans.
 Link to the tutorial: http://faithhold.dyndns.org:8080/JSPWiki/Wiki.jsp?page=Developing%20a%20New%20Cell
 
 -----------------------------------------
+How to use the module
+-----------------------------------------
+You can watch a screencast here: http://www.youtube.com/watch?v=ne5PJUFF_eA
+
+The main steps are:
+First thing is to clone it inside your  ~/my-own-wonderland-modules/unstable/
+folder.
+After that you will have an open_wonderland_empty_module folder that you will
+have to rename to whatever your module is going to be called (say, my_module).
+Then 'cd' into that module and modify the file my.module.properties.
+Now open the project with netbeans and then right-click in the name of the 
+project (empty_module) to rename it to whatever you fancy. That's all!
+
+-----------------------------------------
 Cleaning up git references after cloning
 -----------------------------------------
 If you have cloned this project, you will want to clean up the remote references to the original git project.
